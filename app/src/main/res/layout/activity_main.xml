@@ -2,25 +2,21 @@
 <layout xmlns:bind="http://schemas.android.com/apk/res/android">
 
     <data>
-
         <variable
             name="user"
             type="info.androidhive.databinding.model.User" />
     </data>
-
     <android.support.design.widget.CoordinatorLayout xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".view.MainActivity">
-
         <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:elevation="0dp"
             android:theme="@style/AppTheme.AppBarOverlay">
-
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
